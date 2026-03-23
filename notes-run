@@ -1,0 +1,53 @@
+
+
+## What this code is doing ##
+    1. Start with an input time series — the historical values we already know.
+    2. A retriever searches a knowledge base for similar past patterns and the future values that followed them.
+    3. The system combines your current input with those retrieved examples using the Adaptive Retrieval Mixer (ARM).
+    4. Then the forecasting model uses that combined information to make a better future prediction.
+    5. So the code’s purpose is not just “make a forecast.” More specifically, it is trying to answer:
+    6. Can a forecasting model do better if we let it look up similar historical cases first?
+
+
+## What is the goal of this code ##
+    The goal of the TS-RAG code is to improve zero-shot time series forecasting by retrieving similar historical time series patterns from a knowledge base and combining them with the current input before generating the forecast.
+
+    The goal of this code is to make better time series forecasts by using similar past examples as extra context.
+
+
+## Think of it like this ##
+
+    Normal forecasting model:
+        “Here is the recent pattern. Predict what comes next.”
+
+    TS-RAG:
+        “Here is the recent pattern. Also, here are several old patterns that looked similar, plus what happened after them. Now predict what comes next.”
+
+
+## Results - 1 run ##
+    ETTh1_zeroshot_512_pred_64_512_retrieve_64
+    mse:0.3556, std:0.0000 ---- mae:0.3623, std:0.0000
+
+## ETTh1_zeroshot_512_pred_64_512_retrieve_64 ##
+    This is the run name. It indicates that we ran a zero-shot forecasting experiment on the ETTh1 dataset, using an input/context length of 512, a prediction horizon of 64, and retrieval with top-64 similar examples.
+    - TS-RAG is designed for zero-shot time series forecasting and augments the forecast with retrieved similar time-series segments from a knowledge base.
+
+## MSE = 0.3556 ##
+    MSE (Mean Squared Error) measures the average squared difference between the predicted values and the true values. Lower is better. Because errors are squared, larger mistakes are penalized more heavily.
+
+## MAE = 0.3623 ##
+    MAE (Mean Absolute Error) measures the average absolute difference between the predicted values and the true values. Lower is better. It is usually easier to interpret than MSE because it is more directly tied to average prediction error size.
+
+## std:0.0000 ##
+    This part likely means the script only reported a single run, or multiple runs produced the exact same metric values after rounding, so there was effectively no variation across runs in the printed output.
+
+## What these results mean ##
+    the model successfully ran on the ETTh1 forecasting task
+    it predicted the next 64 future time steps from the previous 512 time steps
+    its average error was about 0.3623 in MAE terms
+    its squared-error-based metric was 0.3556 in MSE terms
+
+## For the report ##
+    The model successfully completed a zero-shot forecasting run on the ETTh1 dataset.
+    Using 512 past time steps as input, it predicted the next 64 future time steps.
+    The run achieved an MSE of 0.3556 and an MAE of 0.3623. Since lower MSE and MAE indicate better forecasting performance, these values show the model produced a valid forecast with measurable prediction error. The reported standard deviation of 0.0000 suggests that only one run was recorded or there was no visible variation across runs.
