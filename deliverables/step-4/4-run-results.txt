@@ -1,0 +1,34 @@
+What did you produce?
+
+The model successfully completed a zero-shot forecasting run on the ETTh1 dataset. Using 512 past time steps as input, it predicted the next 64 future time steps. The run achieved an MSE of 0.3556 and an MAE of 0.3623. Since lower MSE and MAE indicate better forecasting performance, these values show the model produced a valid forecast with measurable prediction error.
+
+Specifically, the model produced:
+    Mean Absolute Error: its average error was about 0.3623 in MAE terms
+    Mean Squared Error: its squared-error-based metric was 0.3556 in MSE terms
+
+TS-RAG, with a zero-shot forecasting, using the ETTh1 dataset.
+
+We can use this data to argue that TS-RAG improves zero-shot forecasting by comparing it against other methods, like RAF.
+
+[graph depicting MSE and MAE for TS-RAG, RAF, non-retrieval methods]
+
+Here is a good starting table using the average across seven datasets (ETTh1, ETTh2, ETTm1, ETTm2, Weather, Traffic, and Electricity (ECL)):
+Method,Type,MSE,MAE
+Chronos-Bolt,Non-retrieval,0.2008,0.2525
+RAF_Chronos-bolt,Retrieval,0.2045,0.2604
+TS-RAG_Chronos-bolt,Retrieval,0.1940,0.2492
+MOMENT,Non-retrieval,0.2374,0.3044
+
+source: These numbers come directly from the TS-RAG paper’s benchmark tables.
+Was our result consistant with the paper's?
+ - yes, but what exactly was the paper's result?
+
+
+####
+    Our run used ETTh1 only.
+    The paper’s average results combine performance across multiple datasets, with ETTh1 being just one of them.
+        - In this literature, the common seven-dataset suite includes the four ETT variants plus three other forecasting datasets: ETTh1, ETTh2, ETTm1, ETTm2, Weather, Traffic, and Electricity (ECL).
+####
+
+What is Chronos-Bolt? MOMENT?
+
