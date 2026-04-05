@@ -1,0 +1,19 @@
+
+## What is being compared? ##
+    The experiment compares normal zero-shot forecasting models with TS-RAG to see whether retrieval augmentation improves prediction accuracy. It also compares TS-RAG with RAF, an earlier retrieval-based method.
+
+    The paper compares:
+        TS-RAG vs standard TSFMs
+        TS-RAG vs RAF
+
+    The most controlled comparison is Chronos-Bolt versus TS-RAG_{Chronos-Bolt}, because both use the same backbone (same base forecasting model) and differ mainly in the addition of retrieval augmentation.
+
+
+## What metrics are used? ##
+    The main metrics are:
+        - MSE (Mean Squared Error) - measures prediction error, but it squares the errors, so it penalizes larger mistakes more heavily. That makes it useful when big forecasting misses are especially undesirable.
+        - MAE (Mean Absolute Error) - measures the average absolute difference between the forecast and the true values. It is easy to interpret because it tells you the typical size of the model’s error.
+
+
+## Why? ##
+    Using both metrics gives a more balanced evaluation: MAE shows overall average error, while MSE highlights whether the model sometimes makes especially large mistakes. That is why they are commonly reported together in time series forecasting experiments. The paper consistently uses them to compare TS-RAG against baselines and retrieval-based alternatives.
