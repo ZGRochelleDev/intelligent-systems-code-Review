@@ -1,5 +1,4 @@
 
-
 ## What this code is doing ##
     1. Start with an input time series — the historical values we already know.
     2. A retriever searches a knowledge base for similar past patterns and the future values that followed them.
@@ -12,7 +11,7 @@
 ## What is the goal of this code ##
     The goal of the TS-RAG code is to improve zero-shot time series forecasting by retrieving similar historical time series patterns from a knowledge base and combining them with the current input before generating the forecast.
 
-    The goal of this code is to make better time series forecasts by using similar past examples as extra context.
+    Essentially, the goal is to make better time series forecasts by using similar past examples as extra context.
 
 
 ## Think of it like this ##
@@ -51,3 +50,15 @@
     The model successfully completed a zero-shot forecasting run on the ETTh1 dataset.
     Using 512 past time steps as input, it predicted the next 64 future time steps.
     The run achieved an MSE of 0.3556 and an MAE of 0.3623. Since lower MSE and MAE indicate better forecasting performance, these values show the model produced a valid forecast with measurable prediction error. The reported standard deviation of 0.0000 suggests that only one run was recorded or there was no visible variation across runs.
+
+## how to understand the results of the experiment ##
+    The paper argues TS-RAG improves zero-shot forecasting by comparing it against other methods, in particular another retrieval-based method called RAF. In one reported comparison, TS-RAG has better average performance than RAF across seven benchmark datasets:
+
+    Note: that TS-RAG and RAF are both retrieval methods, not just a plain forecasting baseline. Neither RAF nor non-retrieval methods are demonstrated in this code repo, but because their results are quite well known, this is unnecessary. The paper does site other research which demonstrates RAF averages, which we can compare below and observe that TS-RAG is indeed an improvement.
+
+RAF is generally treated in the recent literature as a meaningful improvement over non-retrieval forecasting baselines in many benchmark zero-shot forecasting settings.
+
+    RAF: Average MSE 0.2318, Average MAE 0.2738
+    TS-RAG: Average MSE 0.1940, Average MAE 0.2492
+
+Since lower MSE and MAE are better, that is the evidence that TS-RAG improved forecasting relative to that comparison method.
