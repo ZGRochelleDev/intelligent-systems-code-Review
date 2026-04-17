@@ -4,5 +4,13 @@
     TS-RAG’s improvement does not come from making the backbone model bigger. It comes from giving the model better external context, which suggests that retrieval quality may matter as much as model size in zero-shot forecasting.
 
 
-    ## better written ##
-        One critical insight our team had is that TS-RAG improves forecasting without changing the backbone itself very much. Instead of solving the problem by training a bigger model or fine-tuning for each dataset, it improves performance by retrieving useful historical patterns and mixing them into the prediction process. That stood out to us because it suggests that, in zero-shot forecasting, having the right context may be just as important as having a stronger model.
+## better written ##
+    One critical insight our team had is that TS-RAG improves forecasting without changing the backbone itself very much. Keep in mind, that  the backbone is the base model, in this case, Chronos-Bolt. Instead of solving the problem by training a bigger model or fine-tuning for each dataset, it improves performance by retrieving useful historical patterns and mixing them into the prediction process. That stood out to us because it suggests that, in zero-shot forecasting, having the right context may be just as important as having a stronger model.
+
+
+## add to slides ##
+    TS-RAG improves forecasting without changing the backbone itself very much. Keep in mind, that  the backbone is the base model, in this case, Chronos-Bolt.
+
+    Instead of attempting to improves performance by training a bigger model, it does so by retrieving useful historical patterns and mixing them into the prediction process.
+
+    That stood out to us because it suggests that, in zero-shot forecasting, having the right context may be just as important as having a stronger model.

@@ -1,15 +1,15 @@
 
 ## What did you produce? ##
 
-The model successfully completed a zero-shot forecasting run on the ETTh1 dataset. Using 512 past time steps as input, it predicted the next 64 future time steps. The run achieved an MSE of 0.3556 and an MAE of 0.3623. Since lower MSE and MAE indicate better forecasting performance, these values show the model produced a valid forecast with measurable prediction error.
+    The model successfully completed a zero-shot forecasting run on the ETTh1 dataset. Using 512 past time steps as input, it predicted the next 64 future time steps. The run achieved an MSE of 0.3556 and an MAE of 0.3623. Since lower MSE and MAE indicate better forecasting performance, these values show the model produced a valid forecast with measurable prediction error.
 
-Specifically, the model produced:
-    Mean Absolute Error: its average error was about 0.3623 in MAE terms
-    Mean Squared Error: its squared-error-based metric was 0.3556 in MSE terms
+    Specifically, the model produced:
+        Mean Absolute Error: its average error was about 0.3623 in MAE terms
+        Mean Squared Error: its squared-error-based metric was 0.3556 in MSE terms
 
-TS-RAG, with a zero-shot forecasting, using the ETTh1 dataset.
+    TS-RAG, with a zero-shot forecasting, using the ETTh1 dataset.
 
-We can use this data to argue that TS-RAG improves zero-shot forecasting by comparing it against other methods, like RAF.
+    We can use this data to argue that TS-RAG improves zero-shot forecasting by comparing it against other methods, like RAF.
 
 ## insert 2 graphs ##
 
@@ -23,7 +23,6 @@ We can use this data to argue that TS-RAG improves zero-shot forecasting by comp
         Our experiments results: TS-RAG, our results,0.3556,0.3623
          - using ETTh1 only. To fully replicate the results we'd have to run on all datasets
 
-
     Graph 2: TS-RAG vs RAF:
 
         Method,Category,Average_MSE,Average_MAE
@@ -33,15 +32,13 @@ We can use this data to argue that TS-RAG improves zero-shot forecasting by comp
         Our experiments results: TS-RAG, our results,0.3556,0.3623
         - using ETTh1 only. To fully replicate the results we'd have to run on all datasets
 
-
 Notes:
 
     Consider running the experiment using all datasets.
 
-    source: These numbers come directly from the TS-RAG paper’s benchmark tables.
+    Source: These numbers come directly from the TS-RAG paper’s benchmark tables.
     Was our result consistant with the paper's?
     - Yes - go into more detail
-
 
     ####
         Our run used ETTh1 only.

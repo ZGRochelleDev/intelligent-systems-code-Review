@@ -1,19 +1,50 @@
+### Code Review ###
 
-## What is being compared? ##
-    The experiment compares normal zero-shot forecasting models with TS-RAG to see whether retrieval augmentation improves prediction accuracy. It also compares TS-RAG with RAF, an earlier retrieval-based method.
+    ## What is being compared? ##
+        The project is comparing a retrieval-augmented forecasting model against a plain time-series foundation model backbone.
 
-    The paper compares:
-        TS-RAG vs standard TSFMs
-        TS-RAG vs RAF
+        TS-RAG has three components:
+            1. a time series foundation model,
+            2. a retriever
+            3. an Adaptive Retrieval Mixer (ARM), which combines retrieved horizons with the input before forecasting.
 
-    The most controlled comparison is Chronos-Bolt versus TS-RAG_{Chronos-Bolt}, because both use the same backbone (same base forecasting model) and differ mainly in the addition of retrieval augmentation.
+        The repo’s main zero-shot script supports these model choices:
+            ChronosBolt
+            ChronosBoltRetrieve
+            MOMENTRetrieve (unused)
+
+        Compares:
+            TS-RAG, implemented as a retrieval-augmented model, i.e. ChronosBoltRetrieve
+        With:
+            The non-retrieval the plain backbone model ChronosBolt
+
+        The repo compares a retrieval-augmented forecasting approach (TS-RAG) against a standard backbone forecasting model without retrieval. In code, this appears as models such as ChronosBoltRetrieve versus ChronosBolt.
+
+    ## What metrics are used? ##
+        The metrics are:
+            - MSE (Mean Squared Error) - measures prediction error, but it squares the errors, so it penalizes larger mistakes more heavily. That makes it useful when big forecasting misses are especially undesirable.
+            - MAE (Mean Absolute Error) - measures the average absolute difference between the forecast and the true values. It is easy to interpret because it tells you the typical size of the model’s error.
+
+        Why?
+            Using both metrics gives a more balanced evaluation: MAE shows overall average error, while MSE highlights whether the model sometimes makes especially large mistakes. That is why they are commonly reported together in time series forecasting experiments. The paper consistently uses them to compare TS-RAG against baselines and retrieval-based alternatives.
 
 
-## What metrics are used? ##
-    The main metrics are:
-        - MSE (Mean Squared Error) - measures prediction error, but it squares the errors, so it penalizes larger mistakes more heavily. That makes it useful when big forecasting misses are especially undesirable.
-        - MAE (Mean Absolute Error) - measures the average absolute difference between the forecast and the true values. It is easy to interpret because it tells you the typical size of the model’s error.
+### Research Paper ###
+
+    ## What is being compared? ##
+        The research paper compares normal zero-shot forecasting models with TS-RAG to see whether retrieval augmentation improves prediction accuracy. It also compares TS-RAG with RAF, an earlier retrieval-based method.
+
+        The paper compares:
+            TS-RAG vs standard TSFMs
+            TS-RAG vs RAF
+
+        The most controlled comparison is Chronos-Bolt versus TS-RAG_{Chronos-Bolt}, because both use the same backbone (same base forecasting model) and differ mainly in the addition of retrieval augmentation.
 
 
-## Why? ##
-    Using both metrics gives a more balanced evaluation: MAE shows overall average error, while MSE highlights whether the model sometimes makes especially large mistakes. That is why they are commonly reported together in time series forecasting experiments. The paper consistently uses them to compare TS-RAG against baselines and retrieval-based alternatives.
+    ## What metrics are used? ##
+        The main metrics are:
+            - MSE (Mean Squared Error) - measures prediction error, but it squares the errors, so it penalizes larger mistakes more heavily. That makes it useful when big forecasting misses are especially undesirable.
+            - MAE (Mean Absolute Error) - measures the average absolute difference between the forecast and the true values. It is easy to interpret because it tells you the typical size of the model’s error.
+
+        Why?
+            Using both metrics gives a more balanced evaluation: MAE shows overall average error, while MSE highlights whether the model sometimes makes especially large mistakes. That is why they are commonly reported together in time series forecasting experiments. The paper consistently uses them to compare TS-RAG against baselines and retrieval-based alternatives.

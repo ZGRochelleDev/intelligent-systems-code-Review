@@ -52,9 +52,9 @@
     The run achieved an MSE of 0.3556 and an MAE of 0.3623. Since lower MSE and MAE indicate better forecasting performance, these values show the model produced a valid forecast with measurable prediction error. The reported standard deviation of 0.0000 suggests that only one run was recorded or there was no visible variation across runs.
 
 ## how to understand the results of the experiment ##
-The paper argues TS-RAG improves zero-shot forecasting by comparing it against other methods, in particular another retrieval-based method called RAF. In one reported comparison, TS-RAG has better average performance than RAF across seven benchmark datasets:
+    The paper argues TS-RAG improves zero-shot forecasting by comparing it against other methods, in particular another retrieval-based method called RAF. In one reported comparison, TS-RAG has better average performance than RAF across seven benchmark datasets:
 
-Note: that TS-RAG and RAF are both retrieval methods, not just a plain forecasting baseline. Neither RAF nor non-retrieval methods are demonstrated in this code repo, but because their results are quite well known, this is unnecessary. The paper does site other research which demonstrates RAF averages, which we can compare below and observe that TS-RAG is indeed an improvement.
+    Note: that TS-RAG and RAF are both retrieval methods, not just a plain forecasting baseline. Neither RAF nor non-retrieval methods are demonstrated in this code repo, but because their results are quite well known, this is unnecessary. The paper does site other research which demonstrates RAF averages, which we can compare below and observe that TS-RAG is indeed an improvement.
 
 RAF is generally treated in the recent literature as a meaningful improvement over non-retrieval forecasting baselines in many benchmark zero-shot forecasting settings.
 
