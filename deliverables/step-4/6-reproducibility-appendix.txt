@@ -1,0 +1,6 @@
+## Reproducibility Appendix ##
+A text file or report section containing:
+    Exact commands
+    Any configuration changes
+    Notes on compute constraints (CPU/GPU, RAM)
+
