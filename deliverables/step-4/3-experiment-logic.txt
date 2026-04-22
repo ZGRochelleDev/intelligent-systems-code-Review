@@ -46,5 +46,3 @@
             - MSE (Mean Squared Error) - measures prediction error, but it squares the errors, so it penalizes larger mistakes more heavily. That makes it useful when big forecasting misses are especially undesirable.
             - MAE (Mean Absolute Error) - measures the average absolute difference between the forecast and the true values. It is easy to interpret because it tells you the typical size of the model’s error.
 
-        Why?
-            Using both metrics gives a more balanced evaluation: MAE shows overall average error, while MSE highlights whether the model sometimes makes especially large mistakes. That is why they are commonly reported together in time series forecasting experiments. The paper consistently uses them to compare TS-RAG against baselines and retrieval-based alternatives.

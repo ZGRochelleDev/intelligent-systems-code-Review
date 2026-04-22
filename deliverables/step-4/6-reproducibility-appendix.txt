@@ -1,6 +1,18 @@
 ## Reproducibility Appendix ##
-A text file or report section containing:
-    Exact commands
-    Any configuration changes
-    Notes on compute constraints (CPU/GPU, RAM)
 
+    Exact commands:
+        conda create -n tsrag python=3.9
+        conda activate tsrag
+        pip install -r requirements.txt
+        cd TS-RAG
+        bash script/zeroshot_chronos.sh
+
+    Any configuration changes:
+        Had to alter the bash run file in order to use additional datasets.
+        See: deliverables/step-4/zeroshot_chronos.sh
+
+    Notes on compute constraints (CPU/GPU, RAM):
+        CPU: i5 9900k
+        GPU: RTX 3080
+        RAM: 32 DDR4
+        OS: Ubuntu 24.04
