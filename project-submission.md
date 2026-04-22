@@ -4,7 +4,7 @@
 **Course:** Intelligent Systems - Dr. Sahoo
 **Institution:** Quinnipiac University
 
-**Project Repository:** [intelligent-systems-project-4](https://github.com/ZGRochelleDev/intelligent-systems-code-Review)
+**Project Repository:** [intelligent-systems-code-Review](https://github.com/ZGRochelleDev/intelligent-systems-code-Review)
 
 ___
 
@@ -17,19 +17,16 @@ Step 2: Environment Setup
   - Deliverable - A Setup Log: [setup-Log](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-2/step-2.pdf)
 
 Step 3: Minimum Run Requirements
-  - Deliverable - Evidence of execution: [screenshots-logs-commands](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/terminal-commands-output.jpg)
-  - Deliverable - Evidence of execution: [output-files](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/results/forecast_evaluation/zeroshot_chronos.txt)
+  - Deliverable - Evidence of execution 1: [screenshots-logs-commands](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/terminal-commands-output.jpg)
+  - Deliverable - Evidence of execution 2: [output-files](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/results/forecast_evaluation/zeroshot_chronos.txt)
 
 Step 4: Code Understanding Requirements
-  Deliverables - slides and a report
-  - See step 5
+  - Deliverables - slides and a report: *See step 5*
 
 Step 5: Final Deliverables
-  #### A) Short Report (2–4 pages)
-  - [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report.pdf)
 
-  #### B) Presentation Slides (8–12 minutes)
-  - [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
+  - A) Short Report: [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report.pdf)
 
-  #### C) Reproducibility Appendix (Required)
-  - [reproducibility-appendix](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/reproducibility-appendix.txt)
+  - B) Presentation Slides: [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
+
+  - C) Reproducibility Appendix: [reproducibility-appendix](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/reproducibility-appendix.txt)
