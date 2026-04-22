@@ -33,19 +33,16 @@ Step 3: Minimum Run Requirement
   - TITLE: [screenshots-logs-commands](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/terminal-commands-output.jpg)
   - TITLE: [output-files](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/results/forecast_evaluation/zeroshot_chronos.txt)
 
-
-Step 4: Code Understanding Requirements (This Is the Core)
-  Deliverable
-  The Slides
-  - TITLE: [presentation](LINK)
-  - TITLE: [report](LINK)
+Step 4: Code Understanding Requirements
+  Deliverables - slides and a report
+  - TITLE: See step 5
 
 Step 5: Final Deliverables
   #### A) Short Report (2–4 pages)
-  - TITLE: [step-5A](LINK)
+  - TITLE: [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report.pdf)
 
   #### B) Presentation Slides (8–12 minutes)
-  - TITLE: [step-5B](LINK)
+  - TITLE: [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
 
   #### C) Reproducibility Appendix (Required)
-  - TITLE: [step-5C](LINK)
+  - TITLE: [reproducibility-appendix](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/reproducibility-appendix.txt)

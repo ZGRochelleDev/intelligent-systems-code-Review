@@ -9,10 +9,11 @@
 
     Any configuration changes:
         Had to alter the bash run file in order to use additional datasets.
-        See: deliverables/step-4/zeroshot_chronos.sh
+        See: deliverables/step-5/zeroshot_chronos.sh
 
     Notes on compute constraints (CPU/GPU, RAM):
         CPU: i5 9900k
         GPU: RTX 3080
         RAM: 32 DDR4
         OS: Ubuntu 24.04
+
