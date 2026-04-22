@@ -11,41 +11,41 @@ ___
 ### Deliverables
 
 Step 1: Read Before Running 
-  Deliverable
-  A short Project Map (½ page) including:
-  - TITLE: [View Script](LINK)
+  Deliverable - A short Project Map (½ page):
+  - TITLE: [step-1](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-1/step-1.pdf)
 
 Step 2: Environment Setup (Required)
 
-  Deliverable
-  A Setup Log including:
+  Deliverable - A Setup Log including:
 
   OS (Windows/macOS/Linux)
   Python version
   Whether GPU was used
   Any dependency issues and how you solved them
-  - TITLE: [View Script](LINK)
+  - TITLE: [step-2](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-2/step-2.pdf)
 
 Step 3: Minimum Run Requirement
 
-  Deliverable
-    Evidence of execution:
+  Deliverable - Evidence of execution:
       Screenshots or saved logs
       Output files (plots/CSVs)
       The exact command(s) you ran
-  - TITLE: [View Script](LINK)
+  - TITLE: [screenshots-logs-commands](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/terminal-commands-output.jpg)
+  - TITLE: [output-files](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/results/forecast_evaluation/zeroshot_chronos.txt)
+
 
 Step 4: Code Understanding Requirements (This Is the Core)
   Deliverable
   The Slides
-  - TITLE: [View Script](LINK)
+  - TITLE: [presentation](LINK)
+  - TITLE: [report](LINK)
 
 Step 5: Final Deliverables
   #### A) Short Report (2–4 pages)
-  - TITLE: [View Script](LINK)
+  - TITLE: [step-5A](LINK)
 
   #### B) Presentation Slides (8–12 minutes)
-  - TITLE: [View Script](LINK)
+  - TITLE: [step-5B](LINK)
 
   #### C) Reproducibility Appendix (Required)
-  - TITLE: [View Script](LINK)
+  - TITLE: [step-5C](LINK)
