@@ -10,39 +10,26 @@ ___
 
 ### Deliverables
 
-Step 1: Read Before Running 
-  Deliverable - A short Project Map (½ page):
-  - TITLE: [step-1](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-1/step-1.pdf)
+Step 1:
+  - Deliverable - A short Project Map: [project-map](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-1/step-1.pdf)
 
-Step 2: Environment Setup (Required)
+Step 2: Environment Setup
+  - Deliverable - A Setup Log: [setup-Log](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-2/step-2.pdf)
 
-  Deliverable - A Setup Log including:
-
-  OS (Windows/macOS/Linux)
-  Python version
-  Whether GPU was used
-  Any dependency issues and how you solved them
-  - TITLE: [step-2](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-2/step-2.pdf)
-
-Step 3: Minimum Run Requirement
-
-  Deliverable - Evidence of execution:
-      Screenshots or saved logs
-      Output files (plots/CSVs)
-      The exact command(s) you ran
-  - TITLE: [screenshots-logs-commands](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/terminal-commands-output.jpg)
-  - TITLE: [output-files](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/results/forecast_evaluation/zeroshot_chronos.txt)
+Step 3: Minimum Run Requirements
+  - Deliverable - Evidence of execution: [screenshots-logs-commands](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/terminal-commands-output.jpg)
+  - Deliverable - Evidence of execution: [output-files](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-3/results/forecast_evaluation/zeroshot_chronos.txt)
 
 Step 4: Code Understanding Requirements
   Deliverables - slides and a report
-  - TITLE: See step 5
+  - See step 5
 
 Step 5: Final Deliverables
   #### A) Short Report (2–4 pages)
-  - TITLE: [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report.pdf)
+  - [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report.pdf)
 
   #### B) Presentation Slides (8–12 minutes)
-  - TITLE: [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
+  - [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
 
   #### C) Reproducibility Appendix (Required)
-  - TITLE: [reproducibility-appendix](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/reproducibility-appendix.txt)
+  - [reproducibility-appendix](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/reproducibility-appendix.txt)
