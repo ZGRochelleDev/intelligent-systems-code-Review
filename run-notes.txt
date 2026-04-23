@@ -10,18 +10,14 @@
 
 ## What is the goal of this code ##
     The goal of the TS-RAG code is to improve zero-shot time series forecasting by retrieving similar historical time series patterns from a knowledge base and combining them with the current input before generating the forecast.
-
     Essentially, the goal is to make better time series forecasts by using similar past examples as extra context.
 
+    Think of it like this:
+        Normal forecasting model:
+            “Here is the recent pattern. Predict what comes next.”
 
-## Think of it like this ##
-
-    Normal forecasting model:
-        “Here is the recent pattern. Predict what comes next.”
-
-    TS-RAG:
-        “Here is the recent pattern. Also, here are several old patterns that looked similar, plus what happened after them. Now predict what comes next.”
-
+        TS-RAG:
+            “Here is the recent pattern. Also, here are several old patterns that looked similar, plus what happened after them. Now predict what comes next.”
 
 ## Results - 1 run ##
     ETTh1_zeroshot_512_pred_64_512_retrieve_64

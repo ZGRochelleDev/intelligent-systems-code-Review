@@ -1,11 +1,12 @@
 # Code Review Submission
 
-**Authors:** Zoe Rochelle, Sarah Quraishy
-**Course:** Intelligent Systems - Dr. Sahoo
+**Authors:** Zoe Rochelle, Sarah Quraishy;
+**Course:** Intelligent Systems - Dr. Sahoo;
 **Institution:** Quinnipiac University
 
-**Project Repository:** [intelligent-systems-code-Review](https://github.com/ZGRochelleDev/intelligent-systems-code-Review)
+**Project Repository:** [intelligent-systems-code-review](https://github.com/ZGRochelleDev/intelligent-systems-code-Review)
 
+**Code Repository:** [TS-RAG](https://github.com/UConn-DSIS/TS-RAG)
 ___
 
 ### Deliverables
@@ -25,7 +26,7 @@ Step 4: Code Understanding Requirements
 
 Step 5: Final Deliverables
 
-  - A) Short Report: [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report.pdf)
+  - A) Short Report: [report](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-report-final.pdf)
 
   - B) Presentation Slides: [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
 
