@@ -31,3 +31,6 @@ Step 5: Final Deliverables
   - B) Presentation Slides: [presentation](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/code-review-presentation.pdf)
 
   - C) Reproducibility Appendix: [reproducibility-appendix](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/reproducibility-appendix.txt)
+
+Individual Paper Review:
+  - Zoe Rochelle: [paper-review-slides](https://github.com/ZGRochelleDev/intelligent-systems-code-Review/blob/main/deliverables/step-5/paper-review/TS-RAG-paper-review.pdf)
